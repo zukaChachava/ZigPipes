@@ -1,0 +1,11 @@
+.{
+    .name = .zigPipes,
+    .version = "0.0.1",
+    .fingerprint = 0xa827c4937def1699,
+    .minimum_zig_version = "0.15.1",
+    .dependencies = .{ .zigChannels = .{
+        .url = "https://github.com/zukaChachava/ZigChannels/archive/main.tar.gz",
+        .hash = "zigChannels-0.1.0-DIl_z4PYAABqKWPZHVkbwubIe8azKTsbSMTmO_57a3FH",
+    } },
+    .paths = .{ "build.zig", "build.zig.zon", "src" },
+}
